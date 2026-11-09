@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Locker Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
-    
+  <div class="card">
+    <h1>Food Locker #1</h1>
+    <p>Status: <span id="status">Loading...</span></p>
+    <button class="btn unlock" onclick="setStatus('UNLOCKED')">Unlock</button>
+    <button class="btn lock" onclick="setStatus('LOCKED')">Lock</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
