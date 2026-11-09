@@ -1,0 +1,16 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi Configuration
+#define WIFI_SSID "YOUR_WIFI_NAME"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+
+// Supabase / Backend API Settings
+#define SUPABASE_URL "https://your-supabase-project.supabase.co"
+#define SUPABASE_KEY "YOUR_ANON_KEY"
+
+// Hardware Pin Definitions
+#define RELAY_PIN 26      // Solenoid / Lock control
+#define SENSOR_PIN 27     // Door magnetic sensor
+
+#endif
